@@ -7,7 +7,7 @@ function TweetList() {
     <section class="tweets">
       <article class="tweet">
         <header class="tweet--header">
-          <img class="tweet--avatar" src="{nlhLi3I}" alt="avatar1" />
+          <img class="tweet--avatar" src={nlhLi3I} alt="avatar1" />
             <h2 class="tweet--name">Newton</h2>
             <small class="tweet--handle">@SirIsaac</small>
         </header>
@@ -28,7 +28,7 @@ function TweetList() {
       </article>
       <article class="tweet">
         <header class="tweet--header">
-          <img class="tweet--avatar" src="{n73hZDYK}" alt="avatar2" />
+          <img class="tweet--avatar" src={n73hZDYK} alt="avatar2" />
             <h2 class="tweet--name">Descartes</h2>
             <small class="tweet--handle">@rd</small>
         </header>
