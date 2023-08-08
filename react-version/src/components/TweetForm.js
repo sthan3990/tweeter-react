@@ -1,14 +1,6 @@
-import React, { useState } from 'react'; //optional
+import React from 'react'; //optional
 
 function TweetForm() {
-
-  const [Tweet, setTweet] = useState("");
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(Tweet);
-
-  }
 
   return (
     <section className="newtweet">
@@ -23,7 +15,7 @@ function TweetForm() {
         </textarea>
         <input
           type="submit"
-          value={Tweet}
+          value="Tweet"
           className="form__input"
           onClick={(event) => event.preventDefault()}
         />
