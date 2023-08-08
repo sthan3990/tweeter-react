@@ -5,7 +5,7 @@ function Profile() {
   return (
     <aside>
       <div class="profile">
-        <img src={profileImage} class="profile__image"/>;
+        <img src={profileImage} class="profile__image" alt="profile_image"/>;
       </div>
       <br />
         <div class="profile__name">
