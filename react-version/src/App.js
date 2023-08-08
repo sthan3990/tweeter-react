@@ -12,10 +12,10 @@ function App() {
       <Navigation />
       <Profile />
 
-      <container>
+      <main className="container">
         <TweetForm />
         <TweetList />
-      </container>
+      </main>
 
     </div>
   );
