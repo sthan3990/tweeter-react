@@ -1,6 +1,6 @@
 import React from 'react'; //optional
 import nlhLi3I from '../assets/nlhLi3I.png';
-import n73hZDYK from '../assets/73hZDYK.png';
+import n73hZDYK from '../assets/n73hZDYK.png';
 
 function TweetList() {
   return (

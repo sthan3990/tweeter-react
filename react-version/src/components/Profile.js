@@ -1,5 +1,5 @@
 import React from 'react'; //optional
-import profileImage from '../profile-hex.png';
+import profileImage from '../assets/profile-hex.png';
 
 function Profile() {
   return (
