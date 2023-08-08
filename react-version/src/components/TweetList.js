@@ -4,45 +4,45 @@ import n73hZDYK from '../assets/n73hZDYK.png';
 
 function TweetList() {
   return (
-    <section class="tweets">
-      <article class="tweet">
-        <header class="tweet--header">
-          <img class="tweet--avatar" src={nlhLi3I} alt="avatar1" />
-            <h2 class="tweet--name">Newton</h2>
-            <small class="tweet--handle">@SirIsaac</small>
+    <section className="tweets">
+      <article className="tweet">
+        <header className="tweet--header">
+          <img className="tweet--avatar" src={nlhLi3I} alt="avatar1" />
+            <h2 className="tweet--name">Newton</h2>
+            <small className="tweet--handle">@SirIsaac</small>
         </header>
 
-        <div class="tweet--body">
+        <div className="tweet--body">
           <p>If I have seen further it is by standing on the shoulders of giants</p>
         </div>
 
-        <footer class="tweet--footer">
-          <small class="footer--age">10 days ago<small>
-            <span class="footer--actions">
-              <a href="#"><i class="fa fa-flag"></i></a>
-              <a href="#"><i class="fa fa-retweet"></i></a>
-              <a href="#"><i class="fa fa-heart"></i></a>'
+        <footer className="tweet--footer">
+          <small className="footer--age">10 days ago<small>
+            <span className="footer--actions">
+              <a href="#"><i className="fa fa-flag"></i></a>
+              <a href="#"><i className="fa fa-retweet"></i></a>
+              <a href="#"><i className="fa fa-heart"></i></a>'
             </span>
           </small></small>
         </footer>
       </article>
-      <article class="tweet">
-        <header class="tweet--header">
-          <img class="tweet--avatar" src={n73hZDYK} alt="avatar2" />
-            <h2 class="tweet--name">Descartes</h2>
-            <small class="tweet--handle">@rd</small>
+      <article className="tweet">
+        <header className="tweet--header">
+          <img className="tweet--avatar" src={n73hZDYK} alt="avatar2" />
+            <h2 className="tweet--name">Descartes</h2>
+            <small className="tweet--handle">@rd</small>
         </header>
 
-        <div class="tweet--body">
+        <div className="tweet--body">
           <p>Je pense , donc je suis</p>
         </div>
 
-        <footer class="tweet--footer">
-          <small class="footer--age">10 days ago<small>
-            <span class="footer--actions">
-              <a href="#"><i class="fa fa-flag"></i></a>
-              <a href="#"><i class="fa fa-retweet"></i></a>
-              <a href="#"><i class="fa fa-heart"></i></a>'
+        <footer className="tweet--footer">
+          <small className="footer--age">10 days ago<small>
+            <span className="footer--actions">
+              <a href="#"><i className="fa fa-flag"></i></a>
+              <a href="#"><i className="fa fa-retweet"></i></a>
+              <a href="#"><i className="fa fa-heart"></i></a>'
             </span>
           </small></small>
         </footer>
